@@ -8,7 +8,7 @@ Next year, I plan on attending USI and majoring in Computer Science. This year, 
 
 ### Hobbies
 For over 10 years, I have 
-<img src="img/cat.jpg" alt="cat" height="200px" width="200px" />
+<br><img src="img/cat.jpg" alt="cat" height="200px" width="200px" />
 
 ### Links 
 - LinkedIn

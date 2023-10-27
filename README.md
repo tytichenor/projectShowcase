@@ -8,6 +8,7 @@ Next year, I plan on attending USI and majoring in Computer Science. This year, 
 
 ### Hobbies
 For over 10 years, I have 
+![Alt text](img/cat.jpg)
 
 ### Links 
 - LinkedIn

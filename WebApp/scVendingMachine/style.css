@@ -1,0 +1,512 @@
+/* LINK TO YOUTUBE FOR LOGIN AESTHETICS: https://www.youtube.com/watch?v=qROcffueh5M */
+
+
+/* main style */ 
+body{
+    background-image: url(content/blob.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: Impact, sans-serif;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    color: white;
+    padding-top: 7em;
+}
+
+header{
+    color: #070135;
+    background-image: url(content/white-pink-gradient.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position:absolute;
+    top:0;
+    bottom:auto;
+    /* left:0; */
+    right:0;
+    padding-top: 1.8em;
+    padding-bottom: auto;
+    width:100%;
+    height:3.5em;
+    margin-bottom: 10em;
+} 
+
+table{
+    background-color: white;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+th,td{
+    border: 1px solid black;
+}
+
+.headerRight{
+    padding-left: 70em;
+}
+
+footer{
+    padding-top: 3em;
+    padding-bottom: 1em;
+    color: white;
+}
+
+.boring-darkblue-bg{
+    background-image: none;
+    background-color: #070135;
+}
+
+
+
+/* card styling for login */
+.login-card{
+    position: relative;
+    z-index: 3;
+    width: 40%;
+    margin: 0 20px;
+    padding: 30px 30px 44px;
+    border-radius: 1.25rem;
+    background: white;
+    text-align: center;
+}
+
+.login-form{
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+}
+
+.login-form > input, .login-form > button{
+    width: 75%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-form > input{
+    border: 2px solid #ebebeb;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 15px;
+    padding: 0 16px;
+    border-radius: 1.25rem;
+    transition: all 0.375s;
+}
+
+.login-form > input:hover{
+    border: 2px solid #00b6c9;
+}
+
+.login-form > button{
+    cursor: pointer;
+    width: 100px;
+    border-radius: 1.25rem;
+    background: #00b6c9;
+    color: white;
+    border: 0;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-form > button:hover {
+    background: #00b6c9;
+}
+
+div.create a:link{
+    font-size: small;
+    font-family: 'Gill Sans', sans-serif;
+    color: #cb6ce6;
+    text-decoration: underline;
+}
+  
+div.create a:hover{
+    font-size: small;
+    font-family: 'Gill Sans', sans-serif;
+    color: #cb6ce6;
+    text-decoration: underline;
+}
+  
+div.create a:visited{
+    font-size: small;
+    font-family: 'Gill Sans', sans-serif;
+    color: #cb6ce6;
+    text-decoration: underline;
+}
+
+.managerCheckbox{
+    font-size: small;
+    font-family: 'Gill Sans', sans-serif;
+    color: black;
+}
+
+.card-logo{
+    padding-bottom: 23em;
+    background-image: url("content/vendinglogo.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+
+
+/* checkout */
+.checkout-item-info{
+    color: #00b6c9;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: larger
+}
+
+.checkout-form-for-checkout > button{
+    cursor: pointer;
+    width: 115px;
+    height: 40px;
+    border-radius: 1.25rem;
+    background: #00b6c9;
+    color: white;
+    border: 0;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.375s;
+
+}
+
+.checkout-form-for-checkout > button:hover {
+    background: #00b6c9;
+}
+
+.checkout-card{
+    position: relative;
+    z-index: 3;
+    width: 40%;
+    margin: 0 20px;
+    padding: 30px 30px 44px;
+    border-radius: 1.25rem;
+    background: white;
+    text-align: center;
+}
+
+.checkout-form{
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+}
+
+.checkout-form > input, .checkout-form > button{
+    width: 75%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.checkout-form > input{
+    border: 2px solid #ebebeb;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 15px;
+    padding: 0 16px;
+    border-radius: 1.25rem;
+    transition: all 0.375s;
+}
+
+.checkout-form > input:hover{
+    border: 2px solid #00b6c9;
+}
+
+.checkout-form > button{
+    cursor: pointer;
+    width: 100px;
+    border-radius: 1.25rem;
+    background: #00b6c9;
+    color: white;
+    border: 0;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.checkout-form > button:hover {
+    background: #00b6c9;
+}
+
+
+
+/* inventory page style */
+.body-inventory {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body-inventory .title-bar {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-inventory .title-bar .title-string {
+    font-size: 50px;
+    font-family: 'Gill Sans', sans-serif;
+    color: black;
+}
+.body-inventory .form-log {
+    margin-top: 50px;
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.body-inventory .form-log .header {
+    font-size: 27px;
+    font-family: 'Gill Sans', sans-serif;
+}
+.body-inventory .form-log .idErr {
+    background-color: red;
+    width: 270px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-inventory .form-log .idErr .idErr-msg {
+    color: white;
+    font-family: 'Gill Sans', sans-serif;
+}
+.body-inventory .form-log .input .idNum .idNum-header {
+    font-size: 17px;
+    font-family: 'Gill Sans', sans-serif;
+}
+.body-inventory .form-log .input .idNum .idNum-input {
+    width: 250px;
+    height: 30px;
+}
+.body-inventory .form-log .acc-info .acc-info-btn {
+    width: 180px;
+    height: 45px;
+    font-size: 20px;
+    background-color: green;
+    border-radius: 1.25rem;
+    font-family: 'Gill Sans', sans-serif;
+}
+.body-inventory .info {
+    margin-top: 15px;
+    width: 550px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-color: white;
+    border-radius: 1.25rem;
+    border-width: 1px;
+}
+.body-inventory .info .info-msg {
+    width: 300px;
+}
+.body-inventory .info .info-msg .info-msg-text {
+    color: black;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 20px;
+}
+.body-inventory .info .info-btns-container {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+}
+.body-inventory .info .info-btns-container .info-btn {
+    cursor: pointer;
+    width: 100px;
+    border-radius: 1.25rem;
+    background: #070135;
+    color: white;
+    border: 0;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+.body-inventory .form {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 1.25rem;
+    background-color: white;
+    width: 550px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.body-inventory .form .header-inventory {
+    color: black;
+    font-size: 27px;
+    font-family: 'Gill Sans', sans-serif;
+}
+.body-inventory .form .idErr {
+    position: relative;
+    border-radius: 1.25rem;
+    background-color: yellow;
+    width: 270px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-inventory .form .idErr .idErr-msg {
+    color: black;
+    font-family: 'Gill Sans', sans-serif;
+}
+.body-inventory .form .input .input-field .header {
+    color: black;
+    font-size: 17px;
+    font-family: 'Gill Sans', sans-serif;
+}
+.body-inventory .form .input .input-field .input {
+    width: 250px;
+    height: 25px;
+}
+.body-inventory .form .update-acc .update-acc-btn {
+    cursor: pointer;
+    width: 100px;
+    border-radius: 1.25rem;
+    background: #00b6c9;
+    color: white;
+    border: 0;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* detail page two layout style */
+.parent-detail{
+    margin: 0rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    padding-bottom: 5.5em;
+    display: flex;
+}
+
+.child-detail{
+    margin-left: 4em;
+    margin-right: 4em;
+    color:#70C1B3;
+    display: inline-block;
+    background-color: white;
+    border-radius: 1.25rem;
+    padding: 7em 7rem;
+    vertical-align: middle;
+    font-size: x-large;
+}
+
+
+
+/* mobile */
+@media (max-width:600px){
+    body{
+        background-image: url("content/blob.png");
+        background-image: none;
+        background-color: #070135;
+        text-align: center;
+        font-family: Impact, sans-serif;
+        display: grid;
+        place-items: center;
+        margin: 0;
+        color: white;
+        padding-top: 7em;
+    }   
+
+    .card-logo{
+        padding-bottom: 1em;
+        background-image: url("content/white.png");
+        background-size:contain;
+        background-repeat: no-repeat;
+    }
+
+    .headerRight{
+        padding-left: 0em;
+    }
+
+    .body-inventory .info {
+        width: 320px;
+        height: 200px;
+        border-color: white;
+        border-width: 1px;
+    }
+    .body-inventory .info .info-msg {
+        width: 200px;
+    }
+    .body-inventory .form {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        border-radius: 1.25rem;
+        background-color: white;
+        width: 320px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    header{
+        width:100%;
+
+    }
+
+    .parent-detail{
+        margin: 0rem;
+        text-align: center;
+        padding-bottom: 5.5em;
+        display:grid;
+    }
+    
+    .child-detail{
+        color:#70C1B3;
+        background-color: white;
+        border-radius: 1.25rem;
+        vertical-align: middle;
+        margin-bottom: 1.2em;
+        padding: 2em;
+        font-size: large;
+    }
+
+    .checkout-card{
+        width: 70%;
+    }
+}
+
+
+/* blue color - #070135 */
+/* light blue color - #00b6c9 */
+

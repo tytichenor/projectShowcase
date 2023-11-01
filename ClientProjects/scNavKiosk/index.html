@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <title>Nav Kiosk</title>
+</head>
+<body>
+    <script>
+        function buildingConstruction(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/BuildingConstruction.png";
+            return false;
+        }
+        function graphicCommunication(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/GraphicCommunication.png";
+            return false;
+        }
+        function hvac(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/HVAC.png";
+            return false;
+        }
+        function cs(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/CompScience.png";
+            return false;
+        }
+        function cyberSecurity(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/Cybersecurity.png";
+            return false;
+        }
+        function electricity(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/Electricity.png";
+            return false;
+        }
+        function publicSafety(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/PublicSafety.png";
+            return false;
+        }
+        function exercise(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/Exercise.png";
+            return false;
+        }
+        function welding(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/Welding.png";
+            return false;
+        }
+        function precision(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/Precision.png";
+            return false;
+        }
+        function engineering(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/Engineering.png";
+            return false;
+        }
+        function diesel(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/DieselService.png";
+            return false;
+        }
+        function vet(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/VetScience.png";
+            return false;
+        }
+        function radio(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/Radio.png";
+            return false;
+        }
+        function autoCollision(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/AutoCollision.png";
+            return false;
+        }
+        function autoService(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/AutomotiveService.png";
+            return false;
+        }
+        function culinary(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/CulinaryArts.png";
+            return false;
+        }
+        function advManufacturing(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/AdvManufacturing.png";
+            return false;
+        }
+        function healthScience(){
+            var img = document.getElementById("map");
+            img.src="drawMaps/HealthSciences.png";
+            return false;
+        }
+    </script>
+    <main>
+        <div class="container-top">
+            <ul class="top-list">
+                <li class="top-list-item"><li><button class="classBTN" onclick="culinary()">Culinary Arts</button></li></li>
+                <li class="top-list-item"><li><button class="classBTN" onclick="engineering()">Engineering</button></li></li>
+                <li class="top-list-item"><li><button class="classBTN" onclick="publicSafety()">Public Safety</button></li></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="left-list">
+                <ul>
+                    <li><button class="classBTN" onclick="graphicCommunication()">Graphic Communication</button></li>
+                    <li><button class="classBTN" onclick="diesel()">Diesel Service</button></li>
+                    <li><button class="classBTN" onclick="autoService()">Automotive Service</button></li>
+                    <li><button class="classBTN" onclick="autoCollision()">Automotive Collision</button></li>
+                    <li><button class="classBTN" onclick="vet()">Veterinary Science</button></li>
+                    <li><button class="classBTN" onclick="radio()">Radio/TV</button></li>
+                </ul>
+            </div>
+            <div class="center-image">
+                <img id="map">
+            </div>
+            <div class="right-list">
+                <ul>
+                    <li><button class="classBTN" onclick="welding()">Welding Technology</button></li>
+                    <li><button class="classBTN" onclick="precision()">Precision Machine</button></li>
+                    <li><button class="classBTN" onclick="advManufacturing()">Adv. Manufacturing</button></li>
+                    <li><button class="classBTN" onclick="cyberSecurity()">Cybersecurity</button></li>
+                    <li><button class="classBTN" onclick="cs()">Computer Science</button></li>
+                    <li><button class="classBTN" onclick="electricity()">Electricity Technology</button></li>
+                    <li><button class="classBTN" onclick="buildingConstruction()">Building Construction</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-bottom">
+            <ul class="bottom-list">
+                <li><button class="classBTN" onclick="hvac()">HVAC-R</button></li>
+                <li><button class="classBTN" onclick="healthScience()">Health Sciences</button></li>
+                <li><button class="classBTN" onclick="exercise()">Exercise Science</button></li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>

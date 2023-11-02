@@ -65,6 +65,6 @@ An android app that has 8 inputs and can create 3 different Mad Libs.
 <br><br>
 
 ### Project Links
-- https://sictccs.github.io/Lunchbox/
+- https://sictccs.github.io/LunchBox/
 - https://sictccs.github.io/NavKiosk/
 - https://sictccs.github.io/CCF/
